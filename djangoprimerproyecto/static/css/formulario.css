@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Lavishly+Yours&family=Montserrat:ital,wght@1,700&display=swap');
+
+main{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    height: 100vh;
+    padding: 10%;
+    gap: 10px;
+
+    
+}
+
+.formSec{
+    font-family: 'Autour One', cursive;
+    font-family: 'Lavishly Yours', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(61, 130, 61);
+    margin: 0 auto;
+    border-radius: 3px rgb(87, 128, 0);
+    margin-right: 10%;
+    background-color: black;
+    
+
+}
+
+input, textarea{
+    font-family: 'Autour One', cursive;
+    font-family: 'Lavishly Yours', cursive;
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    outline: none;
+    color: aliceblue;
+
+}
+
+.claseFormulario{
+    border: solid 5px #ccc;
+    padding: 10px;
+    width: 280px;
+    background-color: black;
+
+}
+
+.claseFormulario:focus{
+    border-color: green;
+}
+
+.enviar{
+    width: 280px;
+    border: solid 5px #ccc;
+
+}
+
+.enviar1{
+    font-family: 'Autour One', cursive;
+    font-family: 'Lavishly Yours', cursive;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+.container{
+    
+    padding: 45% 45% 0% 45%;
+
+}
+
+
+
+/* Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    main{
+    display:flex;
+    flex-direction: column;
+    margin-right: 10%;
+   
+
+    }
+
+    
+    .formSec{
+        color: aliceblue;
+        font-size: 16px;
+     
+    }
+
+    .container{
+    
+        padding: 20%;
+    
+    }
+    
+}
+ 
+/* Celular*/
+
+    
+@media screen and (max-width: 767px) {
+
+    main{
+    display: flex;
+    flex-direction: column;
+    
+    }
+
+    .formSec{
+        color: aliceblue;
+        font-size: 16px;
+     
+    }
+
+    .container{
+    
+        padding: 20%;
+    
+    }
+    
+
+    
+ }
+
+
+
